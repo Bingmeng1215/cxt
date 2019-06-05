@@ -1,0 +1,8 @@
+图片截取上传
+1.choiceFile  change事件获取本地图片并显示到页面；
+
+2 onmousedown 事件拖拽移动所要截取图片的位置；
+
+3 cutImg click事件截取图片信息并显示到对应canvas画布；
+
+2 updateImage click事件 将canvas截取图转换base64  ajax上传  需配置上传地址

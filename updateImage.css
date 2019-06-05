@@ -1,0 +1,139 @@
+#cut-dmo {
+	width: 80%;
+	height: 80%;
+	padding: 10% 10% 10% 10%;
+}
+
+.select_images {
+	width: 100px;
+	position: relative;
+	display: inline-block;
+	background: #D0EEFF;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 4px 12px;
+	overflow: hidden;
+	color: #000;
+	text-decoration: none;
+	text-indent: 0;
+	line-height: 20px;
+}
+
+.select_images input {
+	position: absolute;
+	font-size: 100px;
+	right: 0;
+	top: 0;
+	opacity: 0;
+}
+
+.select_images:hover {
+	background: #AADFFD;
+	border-color: #78C3F3;
+	color: #004974;
+	text-decoration: none;
+}
+
+.update_images {
+	position: relative;
+	display: inline-block;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 4px 12px;
+	overflow: hidden;
+	color: #000;
+	text-decoration: none;
+	text-indent: 0;
+	line-height: 20px;
+	width: 100px;
+}
+
+#select-out {
+	height: 90%;
+}
+
+#actionsImg {
+	height: 10%;
+	width: 100%;
+	padding: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+
+#choiceImgBox {
+	width: 300px;
+	height: 200px;
+	border: 1px solid #000;
+	margin: 0 auto
+}
+
+#imgBox {
+	width: 500px;
+	height: 500px;
+    /* width:50rem;
+    height:50rem; */
+	margin: 0 auto;
+	position: relative;
+	display: block
+}
+
+#select-out {
+	width: 100%;
+	height: 90%;
+    /* width: 500px;
+    height: 450px; */
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	margin: auto;
+	overflow: hidden;
+	border: 1px solid #ccc
+}
+
+#cutBox {
+	width: 300px;
+	height: 200px;
+	border: 1px solid #000;
+	background: rgba(255,255,255,0.4);
+}
+
+.point {
+	cursor: pointer
+}
+
+#chooseImg {
+	width: 206px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+.chooseImg {
+	width: 206px;
+	height: 30px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+
+#cutImg {
+	width: 100px;
+	height: 30px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+
+#delImg {
+	width: 100px;
+	height: 30px;
+}

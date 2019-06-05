@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>图片上传</title>
+        <link rel="stylesheet" href="updateImage.css">
+    </head>
+    <body>
+        <div id="cut-dmo">
+            <div>
+                <div id="choiceImgBox" >
+                    <canvas id="choiceImg" width="300" height="200"></canvas>
+                </div>
+                <div id="chooseImg" >
+                    <button class="select_images point"  >选择图片
+                        <input type="file"  accept="image/jpg,image/jpeg,image/png" name="" id="choiceFile" onchange="choiceFile(this)" >     
+                    </button>
+                    <button  class="update_images point" id="updateImage" onclick="updateImage()">上传图片</button> 
+                </div>
+            </div>
+            <div  id="imgBox">
+                <div id="select-out" >
+                    <img id="select-out-Img" alt="" src="" />
+                    <div style="position: absolute;left: 0;top: 0;z-index: 1000;;" id="cutBox"></div>
+                </div>
+                <button id="cutImg" class="select_images point" onclick="cutImg()">裁剪图片</button>
+            </div>
+            <div class="add_picture_div"></div>
+        </div>     
+    </body>
+    <script src="./updateImgJs.js"></script>
+</html>
